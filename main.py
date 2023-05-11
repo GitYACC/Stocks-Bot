@@ -1,5 +1,6 @@
 import lightbulb
 import hikari
+import json
 import asyncio
 import typing
 import random
@@ -21,16 +22,11 @@ class BetMap:
 
 global_bets: typing.List[BetMap] = []
 
+with open("secret.json") as f:
+    token = json.load(f)['token']
 
 bot = lightbulb.BotApp(
-    token="".join([
-        "ODYxMzg1NTM2N",
-        "zA1NjU4ODgw.G",
-        "wgqm1.xduTIN8",
-        "_kwIsksTRUxP5",
-        "5ii7w2L2erqp-",
-        "REZng"
-    ]),
+    token=token,
     default_enabled_guilds=1103421333523660902
 )
 
