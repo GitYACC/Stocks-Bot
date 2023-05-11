@@ -1,0 +1,50 @@
+{
+    "liquid": {
+        "profit": "$9139.94",
+        "amount": "$39264.94"
+    },
+    "stocks": {
+        "GOOGL": {
+            "shares": "50",
+            "spent": "$25000",
+            "amount": "$35010.05",
+            "profit": "$10010.05",
+            "buys": [
+                ["5.3.23 19:00", "40", "$20000"],
+                ["5.4.23 18:03", "5", "$2500"],
+                ["5.4.23 19:01", "5", "$2500"]
+            ]
+        },
+        "APPL": {
+            "shares": "10",
+            "spent": "$125",
+            "amount": "$201.16",
+            "profit": "$76.16",
+            "buys": [
+                ["5.3.23 19:00", "5", "$50"],
+                ["5.4.23 19:00", "5", "$75"]
+            ]
+
+        },
+        "AMZN": {
+            "shares": "50",
+            "spent": "$5000",
+            "amount": "$4053.73",
+            "profit": "-$946.27",
+            "buys": [
+                ["5.3.23 18:00", "50", "$5000"]
+            ]
+        }
+    },
+    "property": {
+        "Beverley Hills Mansion": {
+            "listing": "$2000000",
+            "associated channel": "channel X",
+            "bought at": "datetime(X, X, X)"
+        }
+    },
+    "titles": {
+        "Market Mover": 1,
+        "In Debt!": 2
+    }
+}
