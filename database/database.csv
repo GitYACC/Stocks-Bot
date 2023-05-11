@@ -1,4 +1,2 @@
 ID,Client,Assets,Last Trade,Last Trade Time,Last Trade Amount,Market Mover,Cap Hit
-s1h700id,YACC,profiles/samarth.json,GOOGL,"datetime(4,5,23)",-$1000.05,False,0.33
-a1a601id,amwarrior,profiles/aditya.json,APPL,"datetime(4,5,23)",$110.05,False,0.33
-k1f403id,Kaijen,profiles/kaif.json,AMZN,"datetime(4,5,23)",$2010.53,True,0.33
+0x6c4bd,YACC#5002,profiles/YACC#5002.json,,,,False,1.0
